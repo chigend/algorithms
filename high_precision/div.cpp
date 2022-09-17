@@ -21,16 +21,16 @@ vector<int> div(vector<int> a, int b, int &r){
 }
 
 
-int main(){
-
-
-    string a;
-    int b;
-    cin >> a >> b;
-    vector<int> A;
-    for(int i = 0; i < a.size(); i++) A.push_back(a[i] - '0');
-    int r;
-    auto c = div(A, b, r);
-    for(int i = c.size() - 1; i >=0; i--) cout << c[i];
-    cout << endl << r << endl;
-}
+//int main(){
+//
+//
+//    string a;
+//    int b;
+//    cin >> a >> b;
+//    vector<int> A;
+//    for(int i = 0; i < a.size(); i++) A.push_back(a[i] - '0');
+//    int r;
+//    auto c = div(A, b, r);
+//    for(int i = c.size() - 1; i >=0; i--) cout << c[i];
+//    cout << endl << r << endl;
+//}
